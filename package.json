@@ -1,7 +1,7 @@
 {
-  "name": "heroku-ngnix-proxy-node",
+  "name": "heroku-nginx-proxy-node",
   "version": "1.0.0",
-  "description": "An example of using Ngnix as a reverse proxy to a node.js Express app on Heroku 16",
+  "description": "An example of using Nginx as a reverse proxy to a node.js Express app on Heroku 16",
   "license": "MIT",
   "repository": {
     "type": "git",

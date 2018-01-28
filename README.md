@@ -1,6 +1,6 @@
-# heroku-ngnix-proxy-node
+# heroku-nginx-proxy-node
 
-An example of using Ngnix as a reverse proxy to a node.js Express app on Heroku 16
+An example of using Nginx as a reverse proxy to a node.js Express app on Heroku 16
 
         +--------+       /        +-------------+       /       +-----------------+
         |        |   +------->    |             |   +------->   |                 |
@@ -9,7 +9,7 @@ An example of using Ngnix as a reverse proxy to a node.js Express app on Heroku 
         +--------+                +-------------+               +-----------------+
                                                                   localhost:3000
 
-Example: https://heroku-ngnix-proxy-node.herokuapp.com/
+Example: https://heroku-nginx-proxy-node.herokuapp.com/
 
 ## Heroku Deploy Button
 
