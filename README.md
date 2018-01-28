@@ -11,7 +11,7 @@ An example of using Nginx as a reverse proxy to a node.js Express app on Heroku 
 
 Example: https://heroku-nginx-proxy-node.herokuapp.com/
 
-## Heroku Deploy Button
+## Heroku Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
