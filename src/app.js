@@ -6,6 +6,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var home = require('./routes/index');
 var planets = require('./routes/planets');
@@ -58,8 +59,12 @@ app.use(function (err, req, res, next) {
     });
 });
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', 3000);
 
 var server = app.listen(app.get('port'), function () {
-    debug('Express server listening on port ' + server.address().port);
+    if (process.env.DYNO) {
+        console.log('Running on Heroku...');
+        fs.openSync('/tmp/app-initialized', 'w');
+      }
+    console.log('Node app is running on port:', app.get('port'));
 });

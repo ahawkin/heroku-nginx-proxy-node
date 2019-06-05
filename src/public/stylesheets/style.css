@@ -11,6 +11,10 @@ body {
     src: url('../fonts/segoeuil.ttf') format('truetype');
 }
 
+.spacer {
+    margin-top: 100px;
+}
+
 .main-container {
     height: 430px;
     width: 100%;
