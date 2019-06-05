@@ -1,0 +1,26 @@
+﻿doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title #{title} - Heroku | NGINX reverse proxy | Node.js Express
+    link(rel='stylesheet', type='text/css', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    
+  body
+    .navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/') Home
+            li
+              a(href='/planets') Planets
+            
+    .container.body-content
+      block content
+      hr
+      footer
+        p &copy; Heroku | NGINX reverse proxy | Node.js Express
+   
+    block scripts

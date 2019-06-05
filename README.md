@@ -19,3 +19,4 @@ Example: https://heroku-nginx-proxy-node.herokuapp.com/
 - https://github.com/heroku/heroku-buildpack-nginx
 - https://github.com/heroku/heroku-buildpack-nodejs
 - https://github.com/narr/heroku-nginx-node-example
+- https://github.com/microsoft/project-nodejs-express-webapp

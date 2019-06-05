@@ -8,9 +8,15 @@
     "url": "https://github.com/ahawkin/heroku-nginx-proxy-node.git"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
-    "express": "4.13.3"
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
   }
 }
