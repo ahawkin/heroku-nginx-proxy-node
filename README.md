@@ -1,6 +1,6 @@
 # heroku-nginx-proxy-node
 
-An example of using Nginx as a reverse proxy to a node.js Express app on Heroku 16
+An example of using NGINX as a reverse proxy to a node.js Express app on Heroku 16
 
         +--------+       /        +-------------+       /       +-----------------+
         |        |   +------->    |             |   +------->   |                 |
